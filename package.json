@@ -1,6 +1,6 @@
 {
   "name": "shubh-portfolio",
-  "homepage": "https://sshubhamk1.github.io/about/",
+  "homepage": "/about",
   "version": "0.0.0",
   "private": true,
   "scripts": {
