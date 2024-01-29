@@ -1,6 +1,6 @@
 {
   "name": "shubh-portfolio",
-  "homepage": "https://www.github.io/sshubhamk1/about",
+  "homepage": "http://shubhapp.me/about",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.3.4",
