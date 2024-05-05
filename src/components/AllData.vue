@@ -4,105 +4,7 @@
       <!--
   - #SIDEBAR
 -->
-
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img :src="this.profilePic" alt="Shubham Kumar" width="80" />
-          </figure>
-
-          <div class="info-content">
-            <h1 class="name" title="Shubham Kumar">Shubham Kumar</h1>
-
-            <p class="title">Senior Software Engineer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
-        </div>
-
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
-
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
-
-                <a href="mailto:sshubhamk1@hotmail.com" class="contact-link"
-                  >sshubhamk1@hotmail.com</a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+919877883408" class="contact-link">(+91) 9877 88 3408</a>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-
-                <time datetime="1982-06-23">July 1st, 1997</time>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-
-                <address>Bangalore, India</address>
-              </div>
-            </li>
-          </ul>
-
-          <div class="separator"></div>
-
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="http://linkedin.com/in/sshubhamk1/" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="https://twitter.com/shubh_app" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="http://instagram.com/shubh_app/" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-
+      <SideBar />
       <!--
   - #main-content
 -->
@@ -147,17 +49,41 @@
 
           <section class="about-text">
             <p>
-              I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web
-              development and print media. I enjoy turning complex problems into simple, beautiful
-              and intuitive designs.
+              👋 Hi there! I'm Shubham, a seasoned Senior Software Engineer with a passion for
+              tackling new challenges and delivering innovative solutions. With a strong foundation
+              in C, C++, Python, Bash, Git, and Linux, I have honed my skills over two years of
+              industry experience and actively contribute to code reviews.
             </p>
 
             <p>
-              My job is to build your website so that it is functional and user-friendly but at the
-              same time attractive. Moreover, I add personal touch to your product and make sure
-              that is eye-catching and easy to use. My aim is to bring across your message and
-              identity in the most creative way. I created web design for many famous brand
-              companies.
+              🌟 My expertise lies in developing robust and scalable software systems, leveraging my
+              in-depth knowledge of data structures and algorithms. I thrive in dynamic environments
+              that push the boundaries of technology, constantly seeking opportunities to optimize
+              performance and enhance user experiences.
+            </p>
+            <p>
+              🔍 As a diligent reviewer of code, I possess a keen eye for detail and a strong
+              commitment to maintaining code quality. I believe in fostering collaboration and
+              continuously learning from others, recognizing the importance of constructive feedback
+              and mentorship to drive personal and team growth.
+            </p>
+            <p>
+              💡 I find immense satisfaction in solving complex problems, and my passion for data
+              structures and algorithms fuels my curiosity for finding optimal solutions. I approach
+              challenges with a strategic mindset, always striving to balance efficiency,
+              scalability, and maintainability in my designs.
+            </p>
+            <p>
+              ✨ Beyond my technical skills, I thrive in cross-functional teams, collaborating
+              closely with stakeholders to understand their needs and deliver software solutions
+              that exceed expectations. I am a proactive learner, constantly staying up-to-date with
+              the latest industry trends and technologies.
+            </p>
+            <p>
+              🌍 If you are seeking a Senior Software Engineer who excels in data structures and
+              algorithms, is committed to code quality, and thrives in challenging environments,
+              let's connect! I am always eager to explore new opportunities and contribute to
+              impactful projects that make a difference.
             </p>
           </section>
 
@@ -171,20 +97,6 @@
             <ul class="service-list">
               <li class="service-item">
                 <div class="service-icon-box">
-                  <img :src="this.iconDesign" alt="design icon" width="40" />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
-
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a professional level.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
                   <img :src="this.iconDev" alt="Web development icon" width="40" />
                 </div>
 
@@ -192,7 +104,22 @@
                   <h4 class="h4 service-item-title">Web development</h4>
 
                   <p class="service-item-text">
-                    High-quality development of sites at the professional level.
+                    High-quality development of sites at the professional level, using Vue.js at
+                    frontend
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img :src="this.iconDesign" alt="design icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Development</h4>
+
+                  <p class="service-item-text">
+                    Currently making backend microservices in Python and learning golang for future
+                    projects.
                   </p>
                 </div>
               </li>
@@ -203,10 +130,11 @@
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mobile apps</h4>
+                  <h4 class="h4 service-item-title">Cyber Security</h4>
 
                   <p class="service-item-text">
-                    Professional development of applications for iOS and Android.
+                    Participating in CTF events to learn about latest security bugs and how to deal
+                    with those.
                   </p>
                 </div>
               </li>
@@ -217,10 +145,11 @@
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Photography</h4>
+                  <h4 class="h4 service-item-title">Learning</h4>
 
                   <p class="service-item-text">
-                    I make high-quality photos of any category at a professional level.
+                    I'm currently learning Machine learning and blockchain and highly instrested in
+                    jobs related to it.
                   </p>
                 </div>
               </li>
@@ -232,7 +161,7 @@
     -->
 
           <section class="testimonials">
-            <h3 class="h3 testimonials-title">Testimonials</h3>
+            <h3 class="h3 testimonials-title">Skills</h3>
 
             <ul class="testimonials-list has-scrollbar">
               <li class="testimonials-item">
@@ -246,7 +175,7 @@
                     />
                   </figure>
 
-                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Python3</h4>
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
@@ -358,7 +287,7 @@
               </div>
 
               <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                <h4 class="h3 modal-title" data-modal-title>Python3</h4>
 
                 <time datetime="2021-06-14">14 June, 2021</time>
 
@@ -1017,9 +946,9 @@ import project6 from '@/assets/images/project-6.png'
 import project7 from '@/assets/images/project-7.png'
 import project8 from '@/assets/images/project-8.jpg'
 import project9 from '@/assets/images/project-9.png'
-import iconApp from '@/assets/images/icon-app.svg'
-import iconPhoto from '@/assets/images/icon-photo.svg'
-import iconAvatar1 from '@/assets/images/avatar-1.png'
+import iconApp from '@/assets/images/cybersecurity.svg'
+import iconPhoto from '@/assets/images/work-learn-fight.svg'
+import iconAvatar1 from '@/assets/images/python-logo-only.svg'
 import iconAvatar2 from '@/assets/images/avatar-2.png'
 import iconAvatar3 from '@/assets/images/avatar-3.png'
 import iconAvatar4 from '@/assets/images/avatar-4.png'
@@ -1029,6 +958,7 @@ import iconLogo1Color3 from '@/assets/images/nitk.jpg'
 import iconLogo1Color4 from '@/assets/images/lpu.svg'
 import iconLogo1Color5 from '@/assets/images/ctftime.svg'
 import iconLogo1Color6 from '@/assets/images/logo-6-color.png'
+import SideBar from '@/components/Sidebar.vue'
 
 export default {
   name: 'AllData',
@@ -1065,6 +995,9 @@ export default {
       iconLogo1Color5,
       iconLogo1Color6
     }
+  },
+  components: {
+    SideBar
   }
 }
 </script>
