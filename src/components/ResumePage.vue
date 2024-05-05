@@ -16,38 +16,31 @@
 
         <ol class="timeline-list">
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">University school of the arts</h4>
+            <h4 class="h4 timeline-item-title">
+              National Institute of Technology Karnataka, Surathkal
+            </h4>
 
-            <span>2007 — 2008</span>
+            <span>2019 — 2022</span>
 
             <p class="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti,
-              quos dolores et quas molestias exceptur.fjadskfjalksd dfakdjf kdasf akdsjfkd kdsf
-              daskf kasdf kadsf adsf d fasd ffjksd akdsjfkd dfakd f dkfakd fak dfa dkf asdkfa df
-              asdkfasd fa dfad fdf adf adsfadsfasdf dfasf dfa dsfa adfad ds fasd fakdsf akwwejfia
-              fadsijf kdjfkad fkdjfkajkfkalel ka fkadsj kdfa kdfadj faldf jjdfaj ldfjdal fldasf a
+              I did my master's with research in Computer Science and Engineering -Information
+              Security. I studied 'Number Theory & Cryptography', 'Algorithms And Complexity', and
+              'Network Security' as a part of my coursework and did my research on 'Network-level
+              Mitigation of Mirai Malware in IoT' as a part of my research work.
             </p>
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">New york academy of art</h4>
+            <h4 class="h4 timeline-item-title">Lovely Professional University</h4>
 
-            <span>2006 — 2007</span>
-
-            <p class="timeline-text">
-              Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis
-              voluptas assumenda est omnis..
-            </p>
-          </li>
-
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-            <span>2002 — 2004</span>
+            <span>2015 — 2019</span>
 
             <p class="timeline-text">
-              Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut
-              fugit, sed consequuntur magni dolores eos.
+              I did my bachelor's in Computer Science & Engineering with 'Cybersecurity' as my major
+              and 'Embedded Systems' as my minor. I studied multiple programming languages
+              (C/C++/Python/Java) as a part of my coursework. I also studied 'Computer Networks',
+              'Database Management Systems', 'Operating Systems', 'Data Structures & Algorithms',
+              'Compilers', 'Computer Organization and Design', and 'Artificial Intelligence'.
             </p>
           </li>
         </ol>
@@ -56,7 +49,7 @@
       <section class="timeline">
         <div class="title-wrapper">
           <div class="icon-box">
-            <ion-icon name="book-outline"></ion-icon>
+            <ion-icon name="business-outline"></ion-icon>
           </div>
 
           <h3 class="h3">Experience</h3>
@@ -64,20 +57,32 @@
 
         <ol class="timeline-list">
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Creative director</h4>
+            <h4 class="h4 timeline-item-title">Scale AI</h4>
 
-            <span>2015 — Present</span>
+            <span>Mar 2024 — Present</span>
 
             <p class="timeline-text">
-              Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti,
-              quos dolores et qvuas molestias exceptur.
+              Training AI large language models, helping cutting-edge generative AI models write
+              better code. Projects typically include discrete, highly variable problems that
+              involve engaging with these models as they learn to code.
             </p>
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Art director</h4>
+            <h4 class="h4 timeline-item-title">Techstat dynamics pvt ltd</h4>
 
-            <span>2013 — 2015</span>
+            <span>Dec 2023 — Feb 2024</span>
+
+            <p class="timeline-text">
+              Created Microservices to monitor and place trades using a portal. Microservice based
+              architecture with realtime data.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Radisys Coorporation</h4>
+
+            <span>Jul 2021 — Dec 2023</span>
 
             <p class="timeline-text">
               Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti,
@@ -86,9 +91,9 @@
           </li>
 
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Web designer</h4>
+            <h4 class="h4 timeline-item-title">Think 201</h4>
 
-            <span>2010 — 2013</span>
+            <span>Sep 2020 — Nov 2020</span>
 
             <p class="timeline-text">
               Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti,
